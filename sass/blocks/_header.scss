@@ -1,0 +1,43 @@
+.site-header {
+  padding: 20px 0;
+  border: 1px solid #252d3533;
+}
+
+.site-header__inner {
+  @include super-flex;
+}
+
+.site-header__menu{
+  width: 36px;
+  height: 29px;
+  background-image: url('../images/menu.svg');
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+
+.nav__list {
+  @include super-flex;
+}
+
+.nav__item + .nav__item {
+  margin-left: 40px;
+}
+
+.nav__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252d35;
+}
+
+@include media (1135px){
+  .site-header__menu{
+    display: block;
+  }
+
+  .nav{
+    display: none;
+  }
+}
