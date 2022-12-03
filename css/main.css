@@ -436,4 +436,118 @@ p {
   .nav {
     display: none;
   }
+}
+.site-footer__top {
+  padding: 31px 0;
+  border-top: 1px solid rgba(37, 45, 53, 0.2);
+  border-bottom: 1px solid rgba(37, 45, 53, 0.2);
+}
+
+.site-footer__main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.socials {
+  width: 100%;
+  max-width: 280px;
+  margin-top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-titles {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #252D35;
+}
+
+.site-footer__all-contents__item {
+  margin-top: 10px;
+}
+
+.site-footer__all-contents__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #252D35;
+}
+
+.site-footer__all-contents__link__smalls {
+  display: block;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #252D35;
+}
+
+.site-footer__form {
+  width: 100%;
+  max-width: 285px;
+}
+
+.site-footer__form__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer__form__box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 220px;
+}
+
+.site-footer__label:nth-child(1):before {
+  position: absolute;
+  top: 21%;
+  left: 6%;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/accout-logo-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  content: "";
+}
+
+.site-footer__label:nth-child(2):before {
+  position: absolute;
+  bottom: 14%;
+  left: 6%;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/call-phone.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  content: "";
+}
+
+.site-footer__input {
+  width: 100%;
+  max-width: 220px;
+  margin-top: 10px;
+  padding: 16px 40px;
+  border: 2px solid #252D35;
+  background-color: transparent;
+  outline: none;
+}
+
+.site-footer__input:focus {
+  border: 2px solid #B8884B;
+}
+
+.site-footer__btn {
+  display: inline-block;
+  width: 50px;
+  padding: 55px 0;
+  background-color: #252D35;
+  background-image: url("../images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid rgba(241, 245, 248, 0.3019607843);
 }/*# sourceMappingURL=main.css.map */
