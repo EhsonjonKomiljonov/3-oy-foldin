@@ -5,7 +5,7 @@
 }
 
 .site-footer__main-content {
-  @include super-flex ($items:flex-start);
+  @include super-flex($items: flex-start);
 }
 
 .socials {
@@ -19,7 +19,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 25px;
-  color: #252D35;
+  color: #252d35;
 }
 
 .site-footer__all-contents__item {
@@ -30,7 +30,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #252D35;
+  color: #252d35;
 }
 
 .site-footer__all-contents__link__smalls {
@@ -38,21 +38,21 @@
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
-  color: #252D35;
+  color: #252d35;
 }
 
-.site-footer__form{
+.site-footer__form {
   width: 100%;
   max-width: 285px;
 }
 
-.site-footer__form__inner{
+.site-footer__form__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.site-footer__form__box{
+.site-footer__form__box {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -60,27 +60,25 @@
   max-width: 220px;
 }
 
-.site-footer__label:nth-child(1):before{
+.site-footer__label:nth-child(1):before {
   position: absolute;
   top: 21%;
   left: 6%;
   width: 20px;
   height: 20px;
-  background-image: url('../images/accout-logo-mobile.svg');
+  background-image: url("../images/accout-logo-mobile.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   content: "";
 }
 
-
-
-.site-footer__label:nth-child(2):before{
+.site-footer__label:nth-child(2):before {
   position: absolute;
   bottom: 14%;
   left: 6%;
   width: 20px;
   height: 20px;
-  background-image: url('../images/call-phone.svg');
+  background-image: url("../images/call-phone.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   content: "";
@@ -91,22 +89,27 @@
   max-width: 220px;
   margin-top: 10px;
   padding: 16px 40px;
-  border: 2px solid #252D35;
+  border: 2px solid #252d35;
   background-color: transparent;
   outline: none;
 }
 
 .site-footer__input:focus {
-  border: 2px solid #B8884B;
+  border: 2px solid #b8884b;
 }
 
-.site-footer__btn{
+.site-footer__btn {
   display: inline-block;
   width: 50px;
   padding: 55px 0;
-  background-color: #252D35; 
-  background-image: url('../images/arrow-right.svg');
+  background-color: #252d35;
+  background-image: url("../images/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #f1f5f84d; 
+  border: 2px solid #f1f5f84d;
+  transition: all .3s ease;
+
+  &:hover {
+    background-color: #b8884b;
+  }
 }

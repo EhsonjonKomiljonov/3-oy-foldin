@@ -462,7 +462,7 @@ p {
   font-weight: 600;
   font-size: 20px;
   line-height: 25px;
-  color: #252D35;
+  color: #252d35;
 }
 
 .site-footer__all-contents__item {
@@ -473,7 +473,7 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #252D35;
+  color: #252d35;
 }
 
 .site-footer__all-contents__link__smalls {
@@ -481,7 +481,7 @@ p {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
-  color: #252D35;
+  color: #252d35;
 }
 
 .site-footer__form {
@@ -532,22 +532,26 @@ p {
   max-width: 220px;
   margin-top: 10px;
   padding: 16px 40px;
-  border: 2px solid #252D35;
+  border: 2px solid #252d35;
   background-color: transparent;
   outline: none;
 }
 
 .site-footer__input:focus {
-  border: 2px solid #B8884B;
+  border: 2px solid #b8884b;
 }
 
 .site-footer__btn {
   display: inline-block;
   width: 50px;
   padding: 55px 0;
-  background-color: #252D35;
+  background-color: #252d35;
   background-image: url("../images/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid rgba(241, 245, 248, 0.3019607843);
+  transition: all 0.3s ease;
+}
+.site-footer__btn:hover {
+  background-color: #b8884b;
 }/*# sourceMappingURL=main.css.map */
