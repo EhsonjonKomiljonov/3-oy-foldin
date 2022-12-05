@@ -1,0 +1,56 @@
+.company-hero__grid {
+    display: grid;
+    max-width: 3080px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 240px);
+    overflow: hidden;
+}
+
+.company-hero__grid__one {
+    margin-left: -750px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.company-hero__grid__two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.company-hero__grid__three {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.company-hero__grid__four {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.company-hero__grid__five {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.company-hero__grid__six {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.company-hero__grid__box {
+    padding: 45px 90px 45px 50px;
+    background-color: #B8884B;
+}
+
+.company-hero__grid__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 75px;
+    color: #F1F5F8;
+}
