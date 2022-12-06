@@ -65,6 +65,11 @@
 }
 
 @include media(576px) {
+
+  .silding{
+    padding-bottom: 100px;
+  }
+
   .silding__inner {
     flex-direction: column;
   }
