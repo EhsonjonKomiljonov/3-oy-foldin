@@ -1,5 +1,5 @@
 .divide {
-  padding-bottom: 260px;
+  margin-bottom: 260px;
 }
 
 .divide__title {
@@ -125,7 +125,8 @@
 
 @include media(576px) {
   .divide {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-color: #f1f5f8;
   }
 
   .divide__inner {
@@ -153,25 +154,25 @@
   }
 }
 
-@include media (538px){
-  .divide__item:nth-child(3){
+@include media(538px) {
+  .divide__item:nth-child(3) {
     margin-top: 60px;
   }
 }
 
-@include media (375px){
-  .divide__list{
+@include media(375px) {
+  .divide__list {
     flex-wrap: nowrap;
     flex-direction: column;
   }
 
-  .divide__item{
+  .divide__item {
     margin-top: 60px;
   }
 }
 
-@include media (355px){
-  .divide__title{
+@include media(355px) {
+  .divide__title {
     font-size: 30px;
     line-height: 34px;
   }
