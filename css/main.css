@@ -1331,8 +1331,36 @@ p {
     background-color: transparent;
   }
 }
+@media only screen and (max-width: 455px) {
+  .areas__title {
+    font-size: 33px;
+    line-height: 38px;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .areas__title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .areas__text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .container--areas-two {
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 352px) {
+  .areas__title {
+    font-size: 27px;
+    line-height: 31px;
+  }
+}
 .discount {
-  padding-bottom: 260px;
+  margin-bottom: 260px;
 }
 
 .discount__inner {
@@ -1341,7 +1369,7 @@ p {
   border-image-source: linear-gradient(264.7deg, rgba(211, 156, 85, 0.25) 0%, rgba(39, 105, 169, 0.25) 100%);
   background: url("../images/discount-bgi.png"), linear-gradient(264.7deg, rgba(211, 156, 85, 0.25) 0%, rgba(39, 105, 169, 0.25) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: center left 64px, center;
 }
 
 .discount__content {
@@ -1428,10 +1456,79 @@ p {
   background: url("../images/arrow-right.svg"), linear-gradient(86.93deg, #b8884b 0%, #cc9c55 100%);
   background-size: 12px 20px, 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, repeat;
   box-shadow: 0px 8px 20px rgba(202, 154, 84, 0.35);
 }
 
+@media only screen and (max-width: 576px) {
+  .discount {
+    margin-bottom: 100px;
+    background: linear-gradient(264.7deg, rgba(211, 156, 85, 0.25) 0%, rgba(39, 105, 169, 0.25) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  }
+  .discount__inner {
+    padding: 40px 0 0;
+    padding-bottom: 361px;
+    background-image: url("../images/discount-bgi-mobile.png");
+    background-size: 100% auto;
+    background-position: center bottom 30px;
+  }
+  .discount__content {
+    width: 100%;
+    max-width: 550px;
+  }
+  .discount__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .discount__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .discount__desc {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .discount__form {
+    width: 100%;
+    max-width: 550px;
+  }
+  .discount__form::after {
+    right: 23%;
+  }
+  .discount__select {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 483px) {
+  .discount__inner {
+    padding: 40px 0 0;
+    padding-bottom: 331px;
+  }
+  .discount__title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+@media only screen and (max-width: 373px) {
+  .discount__title {
+    font-size: 27px;
+    line-height: 31px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .discount__title {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .discount__text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .discount__desc {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
 .company-hero__grid {
   display: grid;
   max-width: 3080px;
