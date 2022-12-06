@@ -1,0 +1,160 @@
+.silding {
+  padding-bottom: 260px;
+}
+
+.silding__inner {
+  @include super-flex;
+}
+
+.silding__link {
+  display: block;
+}
+
+.silding__walls {
+  width: 100%;
+  max-width: 700px;
+  padding: 632px 20px 20px;
+  background-image: url("../images/silding-img1.jpg");
+  background-repeat: no-repeat;
+}
+
+.silding__partitions {
+  width: 100%;
+  max-width: 700px;
+  padding: 632px 20px 20px;
+  background-image: url("../images/silding-img2.jpg");
+  background-repeat: no-repeat;
+}
+
+.silding__walls__inner {
+  @include super-flex;
+  padding: 17px 15px;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.silding__partitions__inner {
+  @include super-flex;
+  padding: 17px 15px;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.silding__link__title {
+  margin: 0 0 10px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  color: #252d35;
+}
+
+.silding__link__content {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252d35;
+}
+
+.silding__link__btn {
+  padding: 30px 26px;
+  background-image: url("../images/arrow-right-black.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #252d3533;
+}
+
+@include media(576px) {
+  .silding__inner {
+    flex-direction: column;
+  }
+
+  .silding__walls {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+    padding: 299px 20px 20px;
+    background-image: url("../images/silding-img1-mobile.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .silding__partitions {
+    width: 100%;
+    max-width: 450px;
+    padding: 299px 20px 20px;
+    background-image: url("../images/silding-img2-mobile.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .silding__link__title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .silding__link__content {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .silding__link__btn {
+    display: none;
+  }
+}
+
+@include media (430px){
+
+  .silding__walls__inner{
+    box-shadow: inset -50px 0px 40px #f1f5f8cc;
+  }
+
+  .silding__partitions__inner{
+    box-shadow: inset -50px 0px 40px #f1f5f8cc;
+  }
+
+  .silding__partitions__inner{
+    padding: 14px 12px;
+  }
+
+  .silding__link__title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .silding__link{
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+  }
+
+  .silding__link__content:nth-child(3){
+    color: #7272727d;
+  }
+
+  .silding__link__content:nth-child(4){
+    color: #a49a9a70;
+  }
+
+  .silding__link__inner__friend{
+    width: 330px;
+    flex-wrap: nowrap;
+  }
+}
+
+@include media (405px){
+  .silding__link{
+    width: 100%;
+    max-width: 260px;
+    overflow: hidden;
+  } 
+}
+
+@include media (370px){
+
+  .silding__link__title{
+    margin-bottom: 0;
+  }
+
+  .silding__link__inner__friend{
+    display: none;
+  }
+}
