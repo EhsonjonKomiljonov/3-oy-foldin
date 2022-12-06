@@ -1,0 +1,241 @@
+.areas {
+  position: relative;
+  padding-bottom: 212px;
+  // display: none;
+}
+
+.areas__content {
+  @include super-flex;
+}
+
+.container--areas {
+  width: 100%;
+  max-width: 770px;
+  margin-left: auto;
+  padding: 0 20px;
+}
+
+.container--areas-two {
+  width: 100%;
+  max-width: 760px;
+  margin-right: auto;
+}
+
+.areas__title {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.areas__title::after {
+  background-image: none;
+}
+
+.areas__text__box {
+  width: 100%;
+  max-width: 466px;
+}
+
+.areas__text {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252d35;
+}
+
+.areas__btn {
+  padding: 15px 54px 15px 30px;
+}
+
+.areas__btn::after {
+  position: absolute;
+  right: 10%;
+  width: 12px;
+  height: 20px;
+  background-image: url("../images/arrow-right-gold.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.areas__carousel {
+  overflow-x: auto;
+}
+
+.carousel {
+  width: 2300px;
+  @include super-flex;
+  padding-bottom: 42px;
+  padding-right: 30px;
+}
+
+.carousel__inners {
+  width: 100%;
+  max-width: 220px;
+  padding-top: 630px;
+  padding-bottom: 20px;
+}
+
+.carousel__inners:nth-child(1) {
+  background-image: url("../images/areas-img1.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(2) {
+  background-image: url("../images/areas-img2.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(3) {
+  background-image: url("../images/areas-img3.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(4) {
+  background-image: url("../images/areas-img4.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(5) {
+  background-image: url("../images/areas-img5.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(6) {
+  background-image: url("../images/areas-img6.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(7) {
+  background-image: url("../images/areas-img7.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(8) {
+  background-image: url("../images/areas-img8.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__inners:nth-child(9) {
+  background-image: url("../images/areas-img9.jpg");
+  background-repeat: no-repeat;
+}
+
+.carousel__buttons {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto;
+  padding: 15px 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #252d35;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.carousel__buttons--seven {
+  width: 100%;
+  max-width: 190px;
+  padding: 15px 0;
+}
+
+.areas__beautiful {
+  position: absolute;
+  top: 0;
+  right: calc(50% - 759.9px);
+  z-index: 5;
+  width: 100%;
+  max-width: 170px;
+  padding: 350px 0;
+  background-color: #ffffffb3;
+  backdrop-filter: blur(5px);
+}
+
+// SCROLL STYLE
+
+.areas__carousel::-webkit-scrollbar-track {
+  background: #0130601a;
+}
+
+.areas__carousel::-webkit-scrollbar {
+  height: 10px;
+  background-color: #f5f5f5;
+}
+
+.areas__carousel::-webkit-scrollbar-thumb {
+  margin: 2px 0;
+  background-color: #01305e;
+}
+
+@include media(576px) {
+  .areas__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .areas__content {
+    flex-direction: column;
+  }
+
+  .areas__text__box {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .areas__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .areas__btn {
+    padding: 15px 48px 15px 26px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .container--areas-two {
+    width: 100%;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .areas__carousel .carousel {
+    width: 1800px;
+  }
+
+  .carousel__inners {
+    width: 100%;
+    max-width: 180px;
+    padding-top: 348px;
+    padding-bottom: 15px;
+  }
+
+  .carousel__buttons {
+    width: 154px;
+    padding: 10px 8px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .areas__beautiful {
+    display: none;
+  }
+
+  // SCROLL STYLE
+
+  .areas__carousel::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .areas__carousel::-webkit-scrollbar {
+    height: 0;
+    background-color: transparent;
+  }
+
+  .areas__carousel::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+}
