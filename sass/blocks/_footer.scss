@@ -295,8 +295,7 @@
   }
 
   .site-footer__input-check:checked
-    ~ .site-footer__style__box
-    > .site-footer__style {
+    ~ .site-footer__style {
     background-color: #09f;
   }
 
