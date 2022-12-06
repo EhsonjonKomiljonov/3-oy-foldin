@@ -792,6 +792,136 @@ p {
   color: #F1F5F8;
 }
 
+.history {
+  margin-bottom: 160px;
+}
+
+.history__content {
+  width: 1078px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+
+.history__title {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 85px;
+  color: #252D35;
+}
+
+.history__title__span {
+  color: #b8884b;
+}
+
+.history__text {
+  margin: 0;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  color: #252D35;
+}
+
+.history__one {
+  padding: 210px 200px 60px;
+  background-color: #f1f5f8;
+  background-image: url("../../../images/2003.png");
+  background-repeat: no-repeat;
+  background-position: top 60px center;
+}
+
+.history__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history__box {
+  width: 350px;
+  padding: 70px 30px;
+  background-color: #252D35;
+}
+
+.history__subtext {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F1F5F8;
+}
+
+.history__two {
+  background-image: url("../../../images/2008.png");
+  background-color: #fff;
+}
+
+.history__three {
+  background-image: url("../../../images/2011.png");
+}
+
+.history__box--three {
+  padding: 100px 35px;
+}
+
+.history__four {
+  background-image: url("../../../images/2012.png");
+  background-color: #fff;
+}
+
+.history__box--four {
+  padding: 60px 30px;
+}
+
+.history__five {
+  background-image: url("../../../images/2013.png");
+}
+
+.history__box--five {
+  padding: 90px 30px;
+}
+
+.history__six {
+  background-image: url("../../../images/2014.png");
+  background-color: #fff;
+}
+
+.history__box--six {
+  padding: 60px 30px;
+}
+
+.history__seven {
+  background-image: url("../../../images/2016.png");
+}
+
+.history__box--seven {
+  padding: 130px 30px;
+}
+
+.history__eight {
+  background-image: url("../../../images/2018.png");
+  background-color: #fff;
+}
+
+.history__box--eight {
+  padding: 90px 30px;
+}
+
+.history__nine {
+  background-image: url("../../../images/2019.png");
+}
+
+.history__box--nine {
+  padding: 100px 30px;
+}
+
+.history__ten {
+  background-image: url("../../../images/2021.png");
+  background-color: #fff;
+}
+
+.history__box--ten {
+  padding: 110px 30px;
+  
 .news-hero {
   margin: 40px 0 100px;
 }
