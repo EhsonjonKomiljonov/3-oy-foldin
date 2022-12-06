@@ -920,6 +920,8 @@ p {
 }
 @media only screen and (max-width: 370px) {
   .silding__link__title {
+    font-size: 18px;
+    line-height: 18px;
     margin-bottom: 0;
   }
   .silding__link__inner__friend {
@@ -1814,6 +1816,120 @@ p {
   box-shadow: 0px 8px 20px rgba(37, 45, 53, 0.15);
 }
 
+.silding__inner--product {
+  display: block;
+}
+
+.sliding__two__contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sliding__title {
+  margin: 40px 0;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 75px;
+  text-align: center;
+  color: #252d35;
+}
+
+.sliding__title__bautiful {
+  color: #b8884b;
+}
+
+.sliding__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sliding__item {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.sliding__item:nth-child(1) {
+  background-image: url("../images/product-li1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sliding__item:nth-child(2) {
+  background-image: url("../images/product-li2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.silding__link__title--product {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.silding__link__btn--product {
+  padding: 25px;
+}
+
+.silding__partitions--product {
+  margin-top: 40px;
+}
+
+.silding__partitions__inner--product {
+  display: flex;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), radial-gradient(138.93% 500.94% at 0% -22.97%, rgba(1, 48, 94, 0.1) 0%, rgba(184, 136, 75, 0.1) 86.98%);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+.silding__link--product {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 576px) {
+  .silding--products {
+    padding-bottom: 60px;
+  }
+  .silding__partitions--product {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .sliding__two__contents {
+    flex-direction: column;
+  }
+  .sliding__title {
+    margin: 20px 0 30px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    color: #252d35;
+  }
+  .sliding__list {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .sliding__item {
+    margin-top: 20px;
+  }
+  .silding__link--product {
+    width: 100%;
+    max-width: 500px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .silding--product {
+    margin-top: 20px;
+  }
+  .silding__link__title--product__one {
+    margin-bottom: 10px;
+  }
+}
 .site-footer__top {
   padding: 31px 0;
   border-top: 1px solid rgba(37, 45, 53, 0.2);
